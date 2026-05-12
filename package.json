@@ -1,0 +1,21 @@
+{
+  "name": "ltc-miner",
+  "version": "1.0.0",
+  "description": "Optimized Litecoin CPU Miner with Stratum Protocol",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "mine": "node src/index.js --mine",
+    "dashboard": "node src/index.js --dashboard"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
